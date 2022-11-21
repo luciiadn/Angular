@@ -1,0 +1,20 @@
+.card{
+    background-color: lightgray;
+    text-align: center;
+}
+
+h5{
+    font-size: 30px;
+    font-family: Quicksand;
+}
+
+p {
+    font-family: Quicksand;
+    color: whitesmoke;
+}
+
+.card-header{ background-color: lightcoral;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}

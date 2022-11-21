@@ -1,0 +1,16 @@
+.w3-sidebar {
+    background-color: green;
+    width: 150px;
+    height: 230px;
+    float: left;
+    right: 100%;
+    padding: 1em;
+
+    
+}
+
+.w3-bar-item {
+    color: white;
+    font-family: Quicksand;
+    text-align: center;
+}
