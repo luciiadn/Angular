@@ -1,29 +1,18 @@
 <table class="table">
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Apellido</th>
+      <th scope="col">Edad</th>
+      <th scope="col">Conduce</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
+    <tr [ngClass]="student.Conduce ? 'table-success' : 'table-danger'"  *ngFor="let student of students">
+      <th scope="row">{{ student.Nombre}}</th>
+      <td>{{ student.Apellido}}</td>
+      <td>{{ student.Edad | date }}</td>
+      <td>{{ student.Conduce}}</td>
     </tr>
   </tbody>
 </table>

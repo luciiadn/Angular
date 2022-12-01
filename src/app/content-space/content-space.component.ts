@@ -9,15 +9,16 @@ import { students } from './models/students';
 export class ContentSpaceComponent {
 
   students: students[] = [
-    new students ('Axl' 'Rose' new Date ('61'), true),
-    new students ('Izzy' 'Stradlin' new Date ('60'), false),
-    new students ('Norma' 'Mortenson' new Date ('36'), false),
-    new students ('Emma' 'Watson' new Date ('32'), true),
+    new students ('Axl', 'Rose', new Date('1962-02-06'), true),
+    new students ('Izzy','Stradlin' , new Date('1962-04-08'), false),
+    new students ('Norma', 'Mortenson' , new Date('1926-06-01'), false),
+    new students ('Emma', 'Watson', new Date('1990-04-15'), true),
   ] 
 
   constructor () {}
   
   ngOnInit(): void {
+    
 
   }
 }

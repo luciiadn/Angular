@@ -1,20 +1,7 @@
-.card{
-    background-color: lightgray;
+.table{
+    width: 100%;
     text-align: center;
-}
-
-h5{
-    font-size: 30px;
+    background-color: lightcyan;
     font-family: Quicksand;
-}
-
-p {
-    font-family: Quicksand;
-    color: whitesmoke;
-}
-
-.card-header{ background-color: lightcoral;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
+    font-size: 15px;
 }
