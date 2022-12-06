@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ContentSpaceComponent } from './content-space.component';
+import { ErrorHelperComponent } from './error-helper.component';
 
-describe('ContentSpaceComponent', () => {
-  let component: ContentSpaceComponent;
-  let fixture: ComponentFixture<ContentSpaceComponent>;
+describe('ErrorHelperComponent', () => {
+  let component: ErrorHelperComponent;
+  let fixture: ComponentFixture<ErrorHelperComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ContentSpaceComponent ]
+      declarations: [ ErrorHelperComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ContentSpaceComponent);
+    fixture = TestBed.createComponent(ErrorHelperComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,0 +1,57 @@
+<main>
+    <div class="container">
+        <div class="card">
+            <div class=" card-body">
+                <h5 class="card-tittle mb-3"> Formulario de registro</h5>
+                <div class="row">
+                    <div class="col-8">
+                        <form [formGroup]="registrerForm" class="row g-3" (ngSubmit)="onSubmit()">
+                            <div class="col-6">
+                                <label class="form-label" for="FirstName">Nombre</label>
+                                <input [formControl]="firstNameControl" class="form-control"  type="text">
+                                <app-error-helper [control]="firstNameControl"></app-error-helper>
+            
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label" for="LastName">Apellido</label>
+                                <input [formControl]="lastNameControl" class="form-control"  type="text">
+                                
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="Email">Email</label>
+                                <input [formControl]="emailControl" class="form-control"  type="email">
+                                <app-error-helper [control]="emailControl"></app-error-helper>
+                                
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label" for="password">Contraseña</label>
+                                <input [formControl]="passwordControl" class="form-control"  type="password">
+                                <app-error-helper [control]="passwordControl"></app-error-helper>
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label" for="repeatPassword"> Repite Contraseña </label>
+                                <input [formControl]="repeatPasswordControl" class="form-control"  type="password">
+                                
+                            </div>
+                            <div class="col-12">
+                                <select [formControl]="edadControl" class="form-select">
+                                    <option [value]="''"> Indica tu rango de edad </option>
+                                    <option [value]="'18'">Menor de 18 </option>
+                                    <option [value]="'18-45'">De 18 a 45 </option>
+                                    <option [value]="'45-70'">De 45 a 70 </option>
+                                    <option [value]="'70'">Mayor de 70 </option>
+
+                                </select>
+                            </div>
+                            <div class="col-12 d-flex justify-content-end">
+                                <button class= "btn btn-primary" type="submit"> Send </button>
+                            </div>
+
+                        </form>
+                    </div>
+                                      
+               </div>
+            </div>
+        </div>
+    </div>
+</main>

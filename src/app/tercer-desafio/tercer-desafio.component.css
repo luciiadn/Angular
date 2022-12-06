@@ -1,0 +1,49 @@
+main {
+    margin: 0;
+    padding: 0;
+    background: #eedadb;
+    justify-content: center;
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+
+}
+
+.card-body {
+    width: 350px;
+    min-height: 400px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+    text-align: center;
+}
+
+
+.card-tittle{
+    color:  gray;
+    font-size: 20px;
+    
+    
+}
+
+input{
+    background: #fff;
+    color: #333;
+    padding: 5px 0px 5px 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn{
+    height: 30px;
+    width: auto;
+    color: palevioletred;
+    margin: 10px;
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 20px;
+
+}
